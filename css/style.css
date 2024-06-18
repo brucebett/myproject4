@@ -1,0 +1,32 @@
+
+.carousel-inner img{
+    width: 100%;
+    height: 70vh;
+    cursor: pointer;
+    object-fit: cover;
+}
+.carousel-item img.zoomed-in {
+    transform: scale(1.1);
+    cursor: zoom-out;
+}
+
+.carousel-inner img {
+    cursor: pointer;
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.carousel-item img.zoomed-in {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+    z-index: 1000;
+    cursor: zoom-out;
+}
+
+
+
